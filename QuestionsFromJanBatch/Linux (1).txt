@@ -1,0 +1,81 @@
+
+********Linux Interview Questions*******
+
+1. what steps you take to check and resolve the disk size which increased drastically ?
+2. what is the default size or folder
+3. write a script to check daily weather 10 containers if they are up and running or not ? 
+4. what is linux boot process 
+5. what is run level 
+6. linux based question are of priority curl http://abc.com --> tell me in detail how the traffic flows.
+7. when you give this command how exactly the reuest flows to the ISP.	how isp will identify it
+8. what happens when isp cannot resolve the query 4) which layer 4 protocol that the dns uses ? does it also sends html contents
+9. explain in detail about dns
+10. when you get the ip address of the web server, how the client talk to the server?
+11. lets take http and how exactly the http details are send to the server and what about http response?
+12. what do you know about ssl handshakes?
+13. what is load in linux?
+14. how exaclty load get added to it, explain in detail?
+15. how do you troubleshoot the increase of load ?
+16. How to check the memory in linux? Is there any EC2 metric to check memory in cloudwatch? what are the different metrics available in CW?
+17. what are the fields that will be displayed when i type free command? What is swap memory in linux?
+18. Which scripts have u written in ur organization? 
+19. Am doing lot of reads and writes, when the does the bandwidth throttles? 
+20. There is throttling happening, how do you login and check the logs?
+21. How do you debug the disk throlling?
+22. what is file descriptor?
+23. what is inode number?
+24. I have created a file with hardlink, when i delete the hard link, will the file also be deleted?
+25. explain swap memory? will it not consume disk space?
+26. What is load average? consider we have 4 core cpu and average is 6, will the cpu fail?
+27. What is linux container?
+28. Can I get a bash shell inside a container?
+29. when i run df-h inside the container, what will happen? will it of host or the container?
+30. golang is running in container, it has 4gb ram, what happens if golang consumes more than 5gb?
+31. we can add limits to the containers, lets say we have 4 cores, what happens if golang uses all of the core?
+32. Difference btwn http and https
+33. How is the certificates added?
+34. what is the port number for DNS?
+35. What protocol does DNS use?
+36. What is name server in DNS?
+37. U have on premise linux server that is fetching high memory utilization. If u want to find out which process is taking high memory in the last 24 hours. What wil u do?
+38. U have a linux process. U want to find out on which network port ur linux process is listening on. How will u do it?
+39. U have an on premise linux server. If u want to block particular IP from reaching ur on premise linux server. What will u do?
+40. U have written shell script. If any of the shell command is failing u should exit from that point itself and should not execute the script. What will u do?
+41. How can u check the status of last script?
+42. U are working on a terminal and running a script on a linux server. If u close the terminal ur script is also exited. But if u want ur script to run even afet u exit the terminal means what will u do?
+43. What is the content of /etc/passwd?
+44. what do yu know about LVM volumes?
+45. i have a server which has utilized 75% of available memory, i still have 25% space , and i have all the access permissions
+   to create a file, but when you want to create a file , it is saying free space not available? what might be the reason
+46. what do you mean by nice cpu utiliation ?
+47. what is a zombie process?
+48. i have a volume that is mounted but after reboot its not visible ? what might be the problem.
+49. write a bash scripting to find whether the number is a palindrome or not
+50. script :80% disk utilization and what parameters are being chosen 
+51. a particular script is to be copied and run in 10 or more machines how do you approach this and what best practices can be followed? Also the users should not be able to edit the script 
+52. sudoers file is corrupted what is action you take
+53. how you resolve 504 gateway error 
+54. what is linux boot process 
+55. what is run level 
+56. what are the linux commands you have used 
+57. how to create ssl certificate
+58. write program to check weather the string is a sub string or not 
+59. write script to delete all .log files in all directories that is with regex of Salesforce 
+60. given all resources and ids of instance,  write script to create 10 similar instances 
+61. why 504 error comes 
+62. write a script to take file as input and count the number of words 
+63. write a script to monitor continuously and then check the dish space and send mail 
+64. 2 ropes are taking 1 hour time individually to burn,now i have to monitor for 45 mins, using which rope or ropes i can determine the exact 45 mins time duration
+65. explain the approach or script to ping all ip addresses in a text file and check it those are working 
+66. write or explain the program to remove the duplicate and print only single occurrence in java 
+67. how to debug systemctl status check fail
+68. Hard limit ,soft limit 
+
+
+
+
+
+
+
+
+	

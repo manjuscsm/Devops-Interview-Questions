@@ -1,0 +1,77 @@
+
+*******Docker Interview Questions*******
+
+1. explain Dockerfile 
+2. what are docker networks? 
+3. Explain Docker volumes 
+4. how to create image from container? 
+5. What is linux container?
+6. Difference between COPY and ADD in dockerfile.
+7. Write the custom Dockerfile with all the commands
+8. Difference between COPY and ADD
+9. Use of multistage dockerfile
+10. If ur image contains high security issues and don’t want it to push to the dockerhub. what changes will u do in ur CI/CD pipeline.
+11. what are the best practices of dockerfile 
+12. explain multistage dockerfile
+13. when and how do you use multistage dockerfile 
+14. how to copy file from host to ops inside dockerfile
+15. if the destination dir is not present will docker create the dir ? 
+16. docker services is not coming up . what would you do.
+17. docker image size of your approach 
+18. how do you install docker in linux but the machine has no network connectivity 
+19. what do you do when the docker is not up n running 
+20. how do you scan docker images 
+21. explain Dockerfile and instructions 
+22. how do you clean in docker 
+23. how do you shift logs that are from long duration in docker 
+24. write dockerfile 
+25. what is docker compose
+26. what is docker swarn 
+27. Dockerfile 
+28. cmd and entrypoint difference 
+29. what is a container 
+30. write/explain multistage dockerfile 
+31. why do we use docker volumes 
+32. explain Dockerfile 
+33. what are docker networks? 
+34. Explain Docker volumes 
+35. how to create image from container? 
+36. write a script to check daily weather 10 containers if they are up and running or not ?
+37. how to run multiple docker containers ?
+38. where do you store dockerfile 
+39. what are the advantages of using docker 
+40. How did you create docker image
+41. Where did you store docker image
+42. Why did you use multiple stage docker
+43. Best practices while writing dockerfile
+44. Difference between Add and copy
+45. What is dockerfile? Explain it in detail.
+46. Write a dockerfile.
+47. Dockerfile
+48. copy and add,  entrypoint cmd 
+49. Expose publish
+50. How to reduce image size
+51. how to delete docker container 
+52. how can we do docker autoscaling 
+53. what us docker compose 
+54. what is dockerfile 
+55. how do you create an image 
+56. on what platforms does docker run 
+57. Where are you storing Docker images?
+58. how are you managing build dependencies?
+59. Who will write dockerfile in your company ?
+60. Explain the dockerfile
+61. Why is FROM used in Dockerfile?
+62. What is the difference between CMD and ENTRYPOINT ?
+63. Write the Dockerfile with both CMD AND ENTRYPOINT and explain what happens ?
+
+
+
+
+
+
+
+
+
+
+	

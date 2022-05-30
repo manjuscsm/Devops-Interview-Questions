@@ -1,0 +1,180 @@
+
+*******Kubernates Interview Questions********
+
+1. How to achieve zero downtime 
+2. what is the deployment strategy you use ? 
+3. explain how you deploy? process ? which new resources you create and how ? 
+4. what are the changes that can be done in ingress which is in running? 
+5. pod is deleted, again when you create the pod will be up , how to delete the particular pod properly?
+6. rollback deployment 
+7. when to use role binding and cluster role binding?
+8. explain one disadvantage of using defaults name space in k8s
+9. what do u know about services?
+10. what kind of cluster u have set up in ur organization? 
+11. Imagine my pods are running in cluster. they are using http. I want to provide secure certification for those pods. How to add certification to those pods.Lets say i want tp provide https for those pods. How to do it??
+12. Follow up. what is certification? Where exactly u will add certification? 
+13. What is CNI? what is the use of CNI?
+14. How do you enable communication between containers?
+15. How many containers are running in your nodes?
+16. Issues you face in your project in Kubernetes. How do you fix it?
+17. Headless services to run DB on kubernetes. Stateful sets in kubernetes.
+18. configmaps n secrets?
+19. Kubernetes difference between deployment and daemonset and statefullset
+20. Where do u store the secrets
+21. Blue green strategy and write the code for deployment of blue green in yaml or CLI?
+22. What are the security measures u take for your cluster?
+23. What is kubelet
+24. What is daemonset
+25. Difference between liveness and readiness probe
+26. U have created a deployment with replicas. Based on the average cpu utilization of the pods, if u want to increase the pods what will u do?
+27. U have created horizontal pod autoscaler. Whenever u are describing the HPS in the event section u are not able to fetch ur CPU metrics. What will u do?
+28. U have created a k8s cluster with one master and 2 worker nodes. All my pods are running in worker nodes. But if u want to run pods in master nodes what will u do?
+29. If u want to upgrade the worker nodes one by one. But all the worker nodes are running different applications. How do u do it with minimum downtime?
+30. If u run the drain command. All the pods will be moving to other node. But if u want to prevent it and don’t want other pods to come to this node while updating. How will u do?
+31. U have two namsepaces. Namespace 1 and 2. If a pod in NS1  wants to call the application in NS2, then what is the DNS syntax for this?
+32. 3 pods running in same NS.  Pod 2 is running Nginx, pod 3 u are able to do telnet to the pod 2 but not to the pod 2. Why is it? How will u do it?
+33. U have Nginx and Haproxy ingress controller. U want to create a ingress object in Nginx controller only without using haproxy. How will u do it? What is the spec file?
+34. If u want to create multiple ingress objects by using  both nginx and haproxy
+35. Difference between deployment and stateless?
+36. what is probe ?
+37. you have a microservice , you want to schedule the pod on a dedicated node, how you do that?
+38. How many microservices were there in your project
+39. how many nodes and master nodes that you had in your project?
+40. I have a multimaster cluster and one of the master node is to scheduled for a maintainance, but i have critical appilcations running as pod in thathow do you do that?
+41. I have applications runnnig in k8s cluster setup with autoscaling group, spanning across two availabbility zones and one of the zone has undergone a power outage ? 
+    and also one of the zone is getting lot of requests that is causing overhead condition on all our resources 
+    what do you do as short term remedy and long run purpose?
+42. how did you install k8s 
+43. how are roolling updates done 
+44. how do youbtake back up of cluster
+45. what do you do when the complete cluster is deleted 
+46. what is kube proxy 
+47. explain worker nodes 
+48. what are the services in k8s and how and when to you them
+49. difference between monolithic and microservices
+50. why are taints and tolerance used 
+51. what is vpc peering and why do we do 
+52. difference between daemon set and statefull set 
+53. how do you handle secrets in k8s 
+54. how hav you installed k8s cluster 
+55. how do you drain a node 
+56. tell about k8s services you have worked on 
+57. explain ingress 
+58. explain deployment strategy types
+59. there is a pod running am trying to access webpage. but not able to access
+60. i have 2 microservices  A & B & deploying into K8S . i am devopler. i have to onboard them. what is your approach
+61. how to communicate microservice A & B internally.
+62. deployment in k8s yml file for A & B microservice
+63. where your k8s running . how big is cluster n how many pods are running 
+64. who is creating volumes in k8s and what is the use of pvc 
+65. what is the storage class that is used in volumes
+66. how to use ingress for 2 services with same port
+67. how can automated rollback and rollout can be done 
+68. is it a good practice to allow an inter to create or spin up resources 
+69. how secrets are managed in kubernetes 
+70. what is cdr in k8s 
+71. what are the external integration that you have integrated with k8s 
+72. how do you debug pods, what are the scenarios that are associated to pods that are not coming up 
+73. how to take input from customer and how you deploy 
+74. how do you connect to database in k8s
+75. explain how you procced with deployment of an application and database in k8s
+76. how do you auto scale in k8s 
+77. what is daemon set used for 
+78. difference between liveness and readiness probes 
+79. explain statefull set and scenario where it is used
+80. explain your deployment strategy 
+81. how many micro services you have how they are connected 
+82. how do you manage confidentiality in k8s and how do you call them when required 
+83. troubleshooting crashloopbackoff error
+84. how do you upgrade k8s
+85. how to deploy 3 tier application 
+86. difference between kubectl and kubelet
+87. k8s deployment.yml 
+88. horizontal pod autoscaling 
+89. what is size of cluster and where you store
+90. what is the major advantage of using ingress controllers 
+91. how do 2 pods communicate which are in different namespace and same cluster 
+92. eks
+93. k8s architecture
+94. How to achieve zero downtime 
+95. what is the deployment strategy you use ? 
+96. explain how you deploy? process ? which new resources you create and how ? 
+97. what are the changes that can be done in ingress which is in running? 
+98. pod is deleted, again when you create the pod will be up , how to delete the particular pod properly?
+99. explain ingress 
+100. explain deployment strategy types
+101. creating a nginx pod explain the file and also other instructions 
+102. write all the commands that you use daily in kubernetes 
+103. challenges you faced in k8s 
+104. what are namespace in k8s
+105. what are the components of k8s 
+106. how k8s is a helpful tool
+107. In k8s, when we create a pod, what configuration should we define to enable service connection to pods?
+108. Explain any service yaml file.
+109. What is a pod
+110. K8 architecture 
+111. Services 
+112. Namespaces
+113. Probes 
+114. Crashloopbackof
+115. Write a simple yaml file for a pod
+116. difference between statefull and stateless 
+117. what is kubectl 
+118. what is kube proxy
+119. have you created any microservices 
+120. how do other services know about the new microservice 
+121. how many pipelines you maintain for 60 microservices 
+122. do you write one more pipeline for new microservice
+123. how do you add  microservices to pipeline
+124. is the pipeline design different for microservice and monolithic 
+125. how do you design ci cd pipeline so that it automatically adds microservices 
+126. how to design simple 3 tier application 
+127. how to suggest best architecture with all devops best practices 
+128. how do you secure k8s 
+129. how are secrets handelled by services
+130. write the yaml file to deploy jenkins through docker in k8s
+131. explain k8s architecture 
+132. explain the flow of ingress 
+133. difference between statefull and stateless applications 
+134. what type of deployment strategy do you follow 
+135. what are the best security practices for k8s 
+136. Where have you deployed your application?
+137. How do you list services in Kubernates?
+138. how will you list any resources in kubernates?
+139. What are namespaces in kubernates?
+140. Which component in kubernates will store all the information of cluster?
+141. What is API server?
+142. what other components you have in master node?
+143. List the components of worker node.
+144. There is a component deployed in a kubernates and how will you rollback to its previous version?
+145. what do you know about service mess?
+146. Why you need to use ingress controller in kubernates?
+147. Deployment stratergy : blue green 
+148. Default encryption algo is base 64 
+148. Ingress ,loadbalancer
+149. Stateful sets ,static ip 
+150. Persistent volume for pods 
+151. Nagios :Monitors k8 cluster
+
+**Prometheus**
+152. what are the monitoring tools that you know 
+153. what are the monitoring tools you have used 
+154. what are the metrics that you use to monitor
+155. which tool you are using for requirement capturing
+156. which tool you are using for documentation preparation
+
+**Helm**
+157. while moving from helm 2 to helm 3 what challenges you faced ? 
+158. disadvantages of helm 2 
+159. difference between helm 2 and 3
+160. What is the advantage of using Helm Charts?
+
+
+
+
+
+
+
+
+
+	

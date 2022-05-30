@@ -1,0 +1,99 @@
+
+*********Jenkins Interview Questions*********
+
+1. explain shared library concept
+2. Jenkins admin is unable to login, without password how will you access and manage jenkins ?
+3. which is agent that is used internally to communicate between master and slave ? 
+4. write a pipeline script 
+5. how can you install plugins in jenkins 
+6. Difference between scripted and Declarative pipeline
+7. CI/CD Process
+8. Simple Pipeline Script
+9. Branching strategy
+10. Jenkins pipeline stages and setup
+11. Sonarqube and various criteria for analysis of the code
+12. Why have u set 70% in SQ and what happens if that quality is not passed.
+13. Write the Jenkins CI/CD code for sonarqube and  pushing artifactory to any of the storage
+14. explain me your ci cd setup from the first step.
+15. what kind of tests you have done in the various other environments?
+16. Branching strategy
+17. explain about jenkins file
+18. how to change default port of jenkins 
+19. explain continuous delivery and continuous deployment 
+20. tell about jenkins multibranch pipeline 
+21. explain branching strategy 
+22. how do you fix a hotfix branch 
+23. what is the main reason for building a pipeline 
+24. explain your ci cd pipeline 
+25. file not found error in python, what is the cause and how to resolve 
+26. how to take input from customer and how you deploy 
+27. Jenkins security measures 
+28. explain matrix based security how it is applicable to user  
+29. explain jenkins pipeline 
+30. how do pass input parameters in jenkins 
+31. how do you send mails in jenkins job
+32. where and how do you write scripts in jenkins file
+33. hiw do we take back up of jenkins jobs any other qay except plugin and back up if jenkins home
+34. how to change commit message in git 
+35. Why did you Jenkins in your project
+36. K8s pv pvc , services 
+37. Jenkins credentials ,
+38. how to trigger webhooks
+39. artifactory tool
+40. what is snapshot in cicd process?
+41. purpose of sonarqube?
+42. difference between quality profiles and quality gate
+43. explain cicd process
+44. explain pipeline structure
+45. branching strategy
+46. purpose of rundeck tool?
+47. Explain your CI/CD process
+48. Are you aware of ITIL framework? Incident or change management process?
+49. Which kind of pipeline have you worked on ?
+50. Which type of pipeline are you using? Explain the difference.
+51. What the difference between continous delivery and continous deployment?
+52. jenkins cicd, what is ci and cd
+53. Declarative pipeline 
+54. what is master slave architecture 
+55. how to create slave nodes 
+56. what plugins have you used in jenkins  
+57. why is ldap used for 
+58. what are the main advantages of ldap 
+59. how to execute bash script in jenkins 
+60. how is jenkins github integration done in backend what does apache sever do 
+61. how many pipelines you maintain for 60 microservices 
+62. do you write one more pipeline for new microservice
+63. how do you add  microservices to pipeline
+64. how do you design ci cd pipeline so that it automatically adds microservices 
+65. how does sonarqube work 
+66. hpw to publish report from sonarqube 
+67. what is sonarqube lint? what does the report contain 
+68. what configuration changes you to in sonarqube to get report 
+69. what is checkmarx 
+70. write jenkins pipeline for java maven checkmarx sonarqube 
+71. write the yaml file to deploy jenkins through docker in k8s
+72. Explain your CI/CD process
+73. Explain declarative pipeline?
+74. Where will we define env variables in the pipeline?
+75. What is the typical structure of declarative pipeline?
+76. What the difference between continous delivery and continous deployment?
+77. write the multistage jenkins pipeline
+78. how do we take back up of jenkins jobs any other qay except plugin and back up if jenkins home
+79. Why we use plugin in jenkins for providing credentials?
+80. Explain how you deploy applications by integrating all tools?
+81. how to you build your code ?
+82. how are you managing build dependencies?
+83. Pipeline job ,cicd
+84. Slave jenkins manage Jenkins, ssh, keygen
+85. Parallel block inside stage 
+86. Git commands and Git architecture
+87. how to change commit message in git 
+88. how to merge 2 branches with conflicts 
+89. how to solve branch merge 
+90. Git clone
+91. what is git stash 
+92. how to check the commits in git
+93. difference between git pull and a pull request 
+94. how can the version controlling be done 
+
+	

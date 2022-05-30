@@ -1,0 +1,85 @@
+
+*******Terraform Interview Questions*******
+
+1. terraform plan lock state
+2. explain terraform layout and many scenarios on layout structure 
+3. different workspace and same requirement of modules, how to structure the layout? Remote s3 uses  
+4. Terraform statefile 
+5. What are the required fields for EC2 instance in tf?
+6. Lets say i have 10 resource blocks in terraform and i have made some mistake in 6th block(i have entered invalid ami ID). When i run tf plan what will it show?
+7. Follow up of the above. When i run tf apply how many resources will be created in aws and how? Why it will create those many resouces and what is the difference between declarative and imperative?
+8. Follow up. How to make sure that tf will identify that correct resource id is present in the resource block?
+9. Someone has changed resources in aws. Lets say they have changed the instance type there. What wil happen when i run tf apply? And i dont want tf to create the resources if there is any problem with the resource block. How to achieve it?
+10. I want a resource to be recreated with a fresh copy when i run tf apply. How to achieve it?
+11. I dont want to hardcode security credentials in the tf block or even in envt variables. Whats the other way to achieve it?
+12. What is the version of tf u are using? Why only that particular version? what problems will i face when i upgrade from one version to another?
+13. Have u worked on AWS cloudformation? why not? why terraform only?
+14. Imagine i want to create some resouces in one region and some in other regions. How will u achieve it?
+15. Follow up. I want to create resources in another aws account and another region. How to do it? where will u make changes?
+16. Write Terraform code for private subnet
+17. Why did you use terraform in your project?
+18. What is state file?
+19. What happens if state file is deleted?
+20. What are the different components of tf architecture?
+21. What is tf import?
+22. U want to create Ec2 using tf. Where will u keep the tf statefile?
+23. U have kept versioning in S3 bucket. Even if the object is deleted u can always get back back the file. But if the bucket itself is deleted. How will u recover it.
+24. Two AWS account A and B. if u want to create VPC in two accounts with two different providers and want to apply the configuration in single command . how will u do?
+25. how do you maintain terraform statefile 
+26. is the same statefile shared across different environments 
+27. what are workspaces 
+28. have you used modules in terraform 
+29. what are the difference between ansible and terraform 
+30. during terraform plan there are 5 changes to be made, but i want to apply oly one change , is it possible? 
+31. have you worked on modules n Terraform explain 
+32. what are the workspace that you have 
+33. where do you store the terraform statefile 
+34. write the tf scripts for s3
+35. explain the application that you are working on 
+36. terraform backend 
+37. terraform data source 
+38. explain vpc structure in terraform 
+39. expalin data block with vpc 
+40. why and how do we define life cycle in terraform 
+41. what are terraform public modules and how to use them 
+42. terraform  provider
+43. terraform provisioner
+44. terraform functions 
+45. on what platform the terraform plugin run 
+46. What does terraform init do?
+47. Where do you store terraform statefile?
+48. What does Terraform script consists of?
+49. Contents of of terraform script
+50. Terraform statefile, data source block, statelock
+51. what do you mean terraform bundle
+52. terraform plan?
+53. Why have you used terraform?
+54. What all resources have you created?
+55. Where is the statefile managed?
+56. How do create resources explain in S3 bucket? Explain the process
+57. Which provider are you using?
+58. What happens when we run the terraform init command?
+59. Why is variables.tf and .tfvars files are used?
+60. How do you create a resource multiple times?
+61. How does modules work?
+62. Have you used count and other functions in terraform scripts
+63. what is the use of statefile in terraform 
+64. explain terraform modules 
+65. what is terraform tfstate file 
+66. do you create modules or use the existing 
+67. what is the use of workspace in terraform  
+68. write the terraform script of creating a aws instance and explain 
+69. Have to provisioned cloud infrastructure using terraform?
+70. What is backend?
+71. How will you block other user from using a statefile?
+72. Ec2 instance spin up in Terraform (ami,instance type ,pem , count )
+73. Terraform state list :list resources 
+
+
+
+
+
+
+
+
+	

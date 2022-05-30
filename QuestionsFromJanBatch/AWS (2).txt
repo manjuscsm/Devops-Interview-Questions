@@ -1,0 +1,201 @@
+
+******AWS Interview Questions******
+
+1. what are ec2 parameters 
+2. ec2 types
+3. explain the steps to create ec2 instance
+4. how to copy files from host to ec2
+5. Ebs types
+6. difference between ami and snapshot 
+7. how to block specific ip to an ec2 instance
+8. when you give this command how exactly the reuest flows to the ISP.how isp will identify it
+9. what happens when isp cannot resolve the query 
+10. which layer 4 protocol that the dns uses ? does it also sends html contents
+11. explain in detail about dns
+12. when you get the ip address of the web server, how the client talk to the server?
+13. lets take http and how exactly the http details are send to the server and what about http response?
+14. what do you know about ssl handshakes?
+15. what is the main difference between public subnet and private subnet?l
+16. I have lost the key of my EC2. how to get back the key? is there any other way to launch new instance without taking AMI?
+17. Follow up. Can i attach new key to my EC2?
+18. What is EKS? have u used eks?
+19. Follow up. If new user is added to the project. how will u give access to the cluster for him?
+20. Follow up. Imagine that new user has got the same IAM role as yours. still he is not able to access the cluster. what could be the reason? How do u give access to him?
+21. Have u used ECS? Why are u not using ECS? 
+22. Have u used any cloud native CI/CD like cloud commit and other services apart from Jenkins?
+23. Have u used lambda? Did u write any lambda functions?
+24. Follow up. Have u worked on any serverless cloud platforms?
+25. subnets and NACL and Security group. What is the main purpose of NACL?
+26. Follow up. i want to provide access to my VPC only through a specific IP. Not from all around the globe. How can i achieve it?
+27. Do u know about Virtual Private Gateway? why is it required?
+28. What is ELB? typed of ELB?
+29. Follow up. How will u recommend the type of ELB to your client?
+30. Follow up. Imagine my client needs both path based routing and streaming services. which type of ELB will u recommend and why only that ELB?
+31. VPC related questions - CIDR calculations
+32. AWS services you have worked on
+33. NACL and SG related questions like, what happens if port 22 is denied in NACL and allowed in SG and other combinations
+34. NACL allows port 22, SG allows all port -will you be able to ssh into machine A?
+35. NACL allow all, SG 22 port open, will you be able to ssh to machine B
+36. login to machine A and B, manager, removes NACL from machine A and removes SG from machine B, what happens to the connection?
+37. What happens if machine goes down and what happens to volumes? 
+38. Am doing lot of reads and writes, when the does the bandwidth throttles? 
+39. There is throttling happening, how do you login and check the logs?
+40. How do you debug the disk throlling?
+41. 1TB EBS volume is there, and has 100MB data, can it still be throlled?
+42. Explain Different types of ELB's
+43. How do you configure dns for your application, 
+44. ALB where apache is running. apache prints client IP in the access logs, a request comes from outside and elb routes to apache
+45. what will apache see in the request? Will it see the actual clients IP?
+46. What DNS entry will you create to link api.test.com ? A record for DNS takes time to propagate why there is a delay?
+47. How to login to my EC2 if key is lost?
+48. What are public and private subnets?
+49. Which DB u are using?
+50. How to block the traffic from particular IP?
+51. What challenges u have faced in ur company and what are the measures u have taken to correct them?
+52.Some EC2 running in private subnet. How do u provide internet access to them?
+53. If u want to block any public IP entering ur VPC. How do u do it?
+54. U have EC2. U have lost private key. How do u do SSH into EC2?
+55. U have 2 websites a.com and b.com. both are pointing to ur public ALB and ALB has 2 target groups a-g and b-tg and both are running different ec2 instances. Requirement is that if user hits a.com request must go to the a-tg and if user hits b.com it must go to the b-tg. What will u do?
+56. U have two AWS accounts, if one account user wants to access ec2 instances in another AWS account. What will u do?
+57. U have created IAM role in account A with Ec2 access. If user in account B wants to assume cross account role, what extra permission u need to have?
+58. Two AWS accounts account A and B. RDS instance running in account A and if u want to create read replica of this RDS instance in account B . Cross account read replica. what will u do ?
+59. U have EC2 and someone stopped or rebooted instance. If u want to receive alerts with respect to those actions with my EC2. What will u do ?
+60. 2 vps- VPC A and VPC B. Ec2 in VPC A wants to do SSH into VPC B. How to enable connection?
+61. Follow up. Even after u do VPC peering and still not able to connect to the Ec2 in VPC B. what mght be the issue?
+62. U have ALB with Ec2 instances. Each of ur Ec2 is fetching some data from S3 bucket and RDS instance. U want to do security auditing for this. What will u do?
+63. Follow up. For subnet and ec2 level what will u do?
+64. I which subject u will launch ur Ec2 RDS and LB?
+65. In the same infrastructure if u want to do cost optimization with respect to the S3 and Ec2 and RDS. What will u do?
+66. Ur client has provided u the ec2 instance ID that was terminated 4c months ago. Client wants to find out who has terminated Ec2. But in cloud trail its not showing. Why?
+67. Follow up. In future, if client wants to take track of activity for 2 years. What will u do?
+68 If u want o take management event even after 90 days what will u do?
+69. U are keeping the data in S3 bucket or the cloud trail event. But client is unsure of the timeline of the event. Instance was deleted 2 years ago. How will u find out that event from S3 bucket since S3 has huge amount of data.
+70. which all services you have worked on in aws?
+71. i have two s3 bucket and one in account A and anothr in account B, how do you make sure that data in both s3 buckets are accessible?
+72. how do you check the free disk space in an ec2 instance using cloudwatch? which metric do you use?
+73. what do you mean by stateful and stateless in terms of firewall
+74. what are alb and nlb  
+75. what is vpc peering and why do we do  
+76. where is the session token stored 
+77. i have 100 of ec2 machines and so 100 of ips, i have to give client a single ip and help to use or access the application, how do you do
+78. what services you hav worked on aws 
+79. for wat applications you have used AWS
+80. how can u manage logs in very cost effective and efficient way, what methods you suggest 
+81. how can we monitor in cloud watch logs
+82. using s3 how can we achieve cost efficiency 
+83. how you best design application and what is your approach to it 
+84. if a new service is added how to make sure that new service is not hampering other already running ones 
+85. what are nlb and alb how can they be used 
+86. if in a ec2 instance there are 4 service running, is it a good way to keep it and what are other options 
+87. how can you convince a developer to use a particular automation 
+88. is it a good practice to allow an inter to create or spin up resources 
+89. how can restriction be done in aws and other platforms 
+90. what is a way to scale up and down the access to user
+91. how do you check the free disk space in an ec2 instance using cloudwatch? which metric do you use?
+92. s3 vs efs 
+93. what are public and private subnet 
+94. how you resolve 504 gateway error 
+95. cluster is scheduled to maintenance mode what activities you perform 
+96. what are parameters groups in rds
+97. what is route 53
+98. difference b/w alb and nlb
+99. during peering of vpc, a is peered with b, b is peered with c , is a to c connected ? 
+100. how to disable tls 1.2 
+101. explain your application 
+102. what are the security for ec2 instances 
+103. security measures for your application in aws 
+104. how do you manage confidentiality in k8s and how do you call them when required 
+105. how s3 bucket access is given to particular user
+106. challenges faced in aws
+107. how to deploy 3 tier application 
+108. what is s3 life cycle
+109. 100. replication in 
+110. how to access application from private ip
+111. deploy static application in s3
+112. how is ec2 disk space monitored 
+113. how to debug the blank pages
+114. what is user group in load balancers 
+115. how do you map to only private ip in your application 
+116. what are the disk metrics and how you monitor 
+117. what is s3
+118. versioning in s3
+119. what is s3 bucket url
+120. s3 replication 
+121. what is geo traversing in aws
+122. expalin data block with vpc 
+123. architecture for simple application in aws
+124. ec2 types
+125. ebs types
+126. ec2 purchasing options 
+127. load balancing 
+128. auto scaling 
+129. code build 
+130. code deploy 
+131. eks
+132. difference between saas and data as services 
+133. difference between saas and iaas
+134. what is elastic transcoder 
+135. what is api gateway in microservices 
+136. what is microservices design pattern 
+137. explain ci cd stack in aws
+138. how do we give s3 policies 
+139. how to assign s3 bucket access to user
+140. what are the components of vpc
+141. any experience in working on migration of cloud
+142. How to provide access to S3
+143. How to provide access to S3 in cross platform
+144. Ec2 spinning up
+145. How can you persist data even if  instance is deleted
+146. Efs ,ebs
+147. Iam 
+148. Loadbalancer, autoscaling 
+149. Difference between alb and nlb
+150. Route53what is ec2 instance?
+151. Have you involved any cloud migration activities?
+152. What was your involvement in cloud migration?
+153. What are the key factors to consider before migration? With respect to application and cloud
+154. Are you cloud certified? Are you planning to get certified?
+155. What will you do if an ec2 gets crashed how will you retain the data 
+156. What are the types of lb 
+157. What is vpc, subnets, NAT instance
+158. vpc endpoints 
+159. Difference between alb and nlb
+160. how can we achieve cross account vpc peering? explain steps to be followed 
+161. why is cloudfront used
+162. aws kms erros 
+163. explain the steps to host website in s3 
+164. how to connect 2 rds in different accounts 
+165. why and how lambda functions are used 
+166. why does lambda timeout occur 
+167. how to create autoscaling from scratch 
+168. Have to configured Autoscaling group ?
+169. What is difference between Application loadBalancer and Classic LoadBalancer?
+170. What is minimum, desired and maximun capacity in Autoscaling group?
+171. Have you created any IAM user?
+172. What is the difference between IAM user and a role?
+173. Do you know about aws config?
+174. difference between EBS and S3?
+175. What is Glacier?
+176. I have deployed an instance and i want to reset the password for the user. how will you do that?
+177. How do you expose a application deployed using public IP?
+178. what is sts service in aws?
+179. How do you give access to S3 bucket which is in another accout?
+180. lets say there is an application running on a instance and it want to access s3 bucket. How will you provide access withoutdirectly giving the credentials?
+181. Apln load balancer 
+182. User data ,meta data 
+183. Listener target 
+184. Cross zone load balancing 
+185. Application load balancer , classic network; disable ,pricing
+186. Bucket policy , access control 
+187. Autoscaling ,cloud watch alarm ,;predictive
+188. Cool down period (waits)
+
+
+
+
+
+
+
+
+
+	

@@ -1,0 +1,52 @@
+
+*******Ansible Interview Questions********
+
+1. explain ansible architecture 
+2. explain ansible playbook
+3. ansible inventory 
+4. if the host path is changed, how to run playbook 
+5. Lets say i have 10 instances, my public IP of my instances is always changing. How to ensure that updates are pushed to the correct EC2 insatances if public IP is changing?
+6. Follow up. Again imagine i have 10 EC2s. i have added 2 more instances. How can i ensure that when i run playbook updates are pushed to those new instances without mentioning them on the inventory fle?
+7. Have u worked on dynamic pushing of the updates?
+8. Write the Ansible playbook for installing apache and starting the service
+9. U have written ansible playbook. When u run the playbook if u want to execute only specific part of the playbook. What will u do?
+10. What is raw module?
+11. I have a linux remote server. If u want to replace some text in linux server using playbook. What will u do?
+12. What is the use of handlers in ansible?
+13. U have multiple Ec2 running in ur Autoscaling group. Each of ur Ec2 is also attached to ALB. If u need to restart the application in each and every EC2 by using Ansible. What will u do?
+14. Follow up. While restarting Ec2. Application fails to come up. What happens is that LB will mark that Ec2 as unhealthy. Then ASG will start terminating that insatance, but if u don’t want ASG to stop the instance and if u want to troubleshoot the instance means what will u do? 
+15. what are the difference between ansible and terraform 
+16. why handlers are used in ansible 
+17. what are roles in ansible 
+18. Why do we use Ansible or advantages 
+19. explain ansible architecture 
+20. explain ansible playbook 
+21. write ansible playbook 
+22. why ansible?
+23. Explain Ansible Roles
+24. There is a default config file in default dir and another config file in working directory, when I run the playbook, which file will be picked? 
+25. Write a sample playbook to install nginx
+26. What is the jinja template in ansible?
+27. What is the api call with_items have you used that?
+28. How is set passwordless authentication on ansible?
+29. What is concept of fact in ansible? 
+30. difference bw ansible and terraform 
+31. what are ansible handlers
+32. what are tags in ansible 
+33. why are tags required 
+34. How do you create backend for ansible? 
+35. what is magic variable in ansible 
+36. Lets say you have 50 servers how will you find the mount points of all servers using ansible?
+37. You have 50 tasks in a playbook and you want to run only 10 task in that. How will you do it ?
+38. what happens when you give same tag names to all 10 tasks and different tag name to same 10 tags?
+39. Tasks ,image or file name(yaml), notify  handlers
+40. Ansible: how do you call a playback inside another playbook: import it 
+
+
+
+
+
+
+
+
+	
